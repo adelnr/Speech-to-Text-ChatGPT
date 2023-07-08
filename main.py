@@ -9,7 +9,7 @@ engine = pyttsx3.init()
 r = sr.Recognizer()
 mic = sr.Microphone(device_index=0)
 converstion = ""
-user_name = "Adel"
+user_name = "Your Name"
 
 while True:
     with mic as source:
